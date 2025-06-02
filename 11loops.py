@@ -1,4 +1,6 @@
-#wap to print numbers from 1 to 100
+# while loop
+
+# #wap to print numbers from 1 to 100
 '''
 i = 1
 
@@ -45,8 +47,15 @@ while s <= len(tup)-1 :
         print("Found at index :",s)
     s += 1
 '''
-
-
+#wap to print the sum of n natural numbers
+'''
+sum = 0
+n = int(input("Enter the num : "))
+while n>=1 :
+    sum = sum+n
+    n -= 1
+print("Sum :",sum)
+'''
 #for loop
 
 #wap to print the elements of the following list using a loop
@@ -100,8 +109,19 @@ for e in range(100, 0, -1):
 '''
 
 #wap to print multiplicatation table of a number f
-
+'''
 f = int(input("Enter the number :"))
 
 for g in range(10):
     print(f*(g+1))
+'''
+
+#wap to print the factorial of n natural numbers
+
+n = int(input("Enter the number : "))
+factorial = 1
+
+for n in range(n,1,-1):
+    factorial = factorial*n
+
+print("Factorial :",factorial)
